@@ -7,6 +7,7 @@ Clémence Delouche, Léa Feldman et Guillaume Doria
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [To Do](#setup)
+* [Conclusion](#conclusion)
 
 ## General info
 This dataset summarizes a heterogeneous set of features about articles published by Mashable in a period of two years. The goal is to predict the number of shares in social networks (popularity).
@@ -37,4 +38,5 @@ hyper parameters, do a grid search, compare the results of your models using
 graphics
 * Transformation of the model into an API (Django or Flask)
 
-	
+## Conclusion
+???
