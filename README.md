@@ -7,6 +7,7 @@ Clémence Delouche, Léa Feldman et Guillaume Doria
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [To Do](#setup)
+* [Conclusion](#conclusion)
 
 
 ## General info
@@ -37,5 +38,13 @@ the variables and the target
 hyper parameters, do a grid search, compare the results of your models using
 graphics
 * Transformation of the model into an API (Django or Flask)
+
+## Conclusion 
+As a conclusion, we can say that even if RandomForest is a better model than Linear Regression and Decision Tree, it does not really show good results despite the patern on the scatter plot. 
+
+
+The predictions are quite close to the real values but there are still some big errors for certain. 
+Next step for improvement could be a advanced GridSearch for more hyperparameters or test others machinelearning models.
+Another way of improvement could be to remove more outliers. 
 
 
