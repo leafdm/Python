@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online News Popularity</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+
+<body>
+    <div class="login">
+       <h1>Online News Popularity Prediction</h1>
+       <form action="{{ url_for('predict')}}" method="post">
+           <input type="text" name="Channel" placeholder="Channel" required="required" />
+           <input type="text" name="Publication day" placeholder="Publication day" required="required" />
+           <input type="text" name="Number of worlds in the title" placeholder="Number of worlds in the title" required="required" />
+           <input type="text" name="Number of links" placeholder="Number of links" required="required" />
+           <input type="text" name="Number of pictures" placeholder="Number of pictures" required="required" />
+           <button type="submit" class="btn btn-primary btn-block btn-large">What's the prediction?</button>
+       </form>
+   
+      <br>
+
+    {prediction text}
+   
+   
+    </div>
+   
+   
+   </body>
+   </html>
